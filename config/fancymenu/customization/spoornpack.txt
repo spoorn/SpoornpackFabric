@@ -1,0 +1,143 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = cool_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  baseheight = 768
+  action = autoscale
+  basewidth = 1024
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-left
+  x = 16
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=400310%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = top-left
+  x = 16
+  action = movebutton
+  y = 210
+}
+
+customization {
+  identifier = %id=400358%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = mid-left
+  x = 157
+  action = movebutton
+  y = 77
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = top-left
+  x = 16
+  action = movebutton
+  y = 129
+}
+
+customization {
+  identifier = %id=400286%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-left
+  x = 16
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=400334%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-left
+  x = 16
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=400394%
+  width = 76
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-left
+  x = 101
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=502394%
+  width = 76
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-left
+  x = 16
+  action = movebutton
+  y = 77
+}
+
+customization {
+  path = config/fancymenu/images/logo.png
+  orientation = top-left
+  x = 144
+  width = 223
+  action = addtexture
+  actionid = d15a6d01-7354-46c4-88b5-4093ff38ae431642192653028
+  y = 19
+  height = 83
+}
+

@@ -1,0 +1,24 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = faa2e9
+}
+
+customization {
+  x = -4
+  action = editlogo
+  y = -34
+}
+
+customization {
+  x = -4
+  action = editprogressbar
+  y = -91
+  barcolor = 000000
+}
+
