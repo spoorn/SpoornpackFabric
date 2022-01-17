@@ -1,8 +1,10 @@
 {
 	/* 
 	   
-	   [Bandit Towers Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Bandit Towers Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"banditTowersGenerates": true,
 	// Base distance between Bandit Towers (in chunks). Must be higher than separation.
@@ -13,8 +15,10 @@
 	"banditTowersSize": 50,
 	/* 
 	   
-	   [Bandit Villages Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Bandit Villages Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"banditVillageGenerates": true,
 	// Base distance between Bandit Villages (in chunks). Must be higher than separation.
@@ -25,8 +29,10 @@
 	"banditVillageSize": 13,
 	/* 
 	   
-	   [Illager Corsair Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Illager Corsair Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"illagerCorsairGenerates": true,
 	// Base distance between Illager Corsair (in chunks). Must be higher than separation.
@@ -37,8 +43,10 @@
 	"illagerCorsairSize": 10,
 	/* 
 	   
-	   [Illager Galley Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Illager Galley Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"illagerGalleyGenerates": true,
 	// Base distance between Illager Galley (in chunks). Must be higher than separation.
@@ -49,8 +57,10 @@
 	"illagerGalleySize": 10,
 	/* 
 	   
-	   [Typhon Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Typhon Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"typhonGenerates": true,
 	// Base distance between Typhon (in chunks). Must be higher than separation.
@@ -61,8 +71,10 @@
 	"typhonSize": 10,
 	/* 
 	   
-	   [Undead Pirate Ships Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Undead Pirate Ship Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"undeadPirateShipGenerates": true,
 	// Base distance between Undead Pirate Ships (in chunks). Must be higher than separation.
@@ -73,8 +85,10 @@
 	"undeadPirateShipSize": 10,
 	/* 
 	   
-	   [Illager Campsite Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Illager Campsite Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"illagerCampsiteGenerates": true,
 	// Base distance between Illager Campsite (in chunks). Must be higher than separation.
@@ -85,8 +99,10 @@
 	"illagerCampsiteSize": 10,
 	/* 
 	   
-	   [Merchant Campsite Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Merchant Campsite Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"merchantCampsiteGenerates": true,
 	// Base distance between Merchant Campsite (in chunks). Must be higher than separation.
@@ -97,8 +113,10 @@
 	"merchantCampsiteSize": 10,
 	/* 
 	   
-	   [Ceryneian Hinds Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Ceryneian Hind Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"ceryneianHindGenerates": true,
 	// Base distance between Ceryneian Hinds (in chunks). Must be higher than separation.
@@ -109,8 +127,10 @@
 	"ceryneianHindSize": 10,
 	/* 
 	   
-	   [Shiraz Palaces Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Shiraz Palace Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"shirazPalaceGenerates": true,
 	// Base distance between Shiraz Palaces (in chunks). Must be higher than separation.
@@ -121,8 +141,10 @@
 	"shirazPalaceSize": 50,
 	/* 
 	   
-	   [Heavenly Challenger Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Heavenly Challenger Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"heavenlyChallengerGenerates": true,
 	// Base distance between Heavenly Challenger (in chunks). Must be higher than separation.
@@ -133,8 +155,10 @@
 	"heavenlyChallengerSize": 20,
 	/* 
 	   
-	   [Heavenly Conqueror Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Heavenly Conqueror Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"heavenlyConquerorGenerates": true,
 	// Base distance between Heavenly Conqueror (in chunks). Must be higher than separation.
@@ -145,8 +169,10 @@
 	"heavenlyConquerorSize": 20,
 	/* 
 	   
-	   [Heavenly Rider Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Heavenly Rider Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"heavenlyRiderGenerates": true,
 	// Base distance between Heavenly Rider (in chunks). Must be higher than separation.
@@ -157,20 +183,10 @@
 	"heavenlyRiderSize": 20,
 	/* 
 	   
-	   [Aviary Spawning Settings]
-	   Basic configuration options for this structure
-	*/
-	"aviaryGenerates": true,
-	// Base distance between Aviary (in chunks). Must be higher than separation.
-	"aviarySpacing": 200,
-	// Base distance between Aviary (in chunks)
-	"aviarySeparation": 160,
-	// Number of Jigsaw iterations when generating a structure
-	"aviarySize": 20,
-	/* 
 	   
-	   [Lighthouses Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	    [Lighthouse Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"lighthouseGenerates": true,
 	// Base distance between Lighthouses (in chunks). Must be higher than separation.
@@ -181,8 +197,10 @@
 	"lighthouseSize": 10,
 	/* 
 	   
-	   [Small Blimps Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Small Blimp Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"smallBlimpGenerates": true,
 	// Base distance between Small Blimps (in chunks). Must be higher than separation.
@@ -193,8 +211,10 @@
 	"smallBlimpSize": 40,
 	/* 
 	   
-	   [Abandoned Temples Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Abandoned Temple Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"abandonedTempleGenerates": true,
 	// Base distance between Abandoned Temples (in chunks). Must be higher than separation.
@@ -205,8 +225,10 @@
 	"abandonedTempleSize": 30,
 	/* 
 	   
-	   [Illager Forts Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Illager Forts Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"illagerFortGenerates": true,
 	// Base distance between Illager Forts (in chunks). Must be higher than separation.
@@ -217,8 +239,10 @@
 	"illagerFortSize": 10,
 	/* 
 	   
-	   [Monasteries Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Monastery Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"monasteryGenerates": true,
 	// Base distance between Monasteries (in chunks). Must be higher than separation.
@@ -229,8 +253,10 @@
 	"monasterySize": 8,
 	/* 
 	   
-	   [Thornborn Towers Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Thornborn Towers Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"thornbornTowersGenerates": true,
 	// Base distance between Thornborn Towers (in chunks). Must be higher than separation.
@@ -241,8 +267,10 @@
 	"thornbornTowersSize": 80,
 	/* 
 	   
-	   [Giant Mushrooms Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Giant Mushroom Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"giantMushroomGenerates": true,
 	// Base distance between Giant Mushrooms (in chunks). Must be higher than separation.
@@ -253,8 +281,10 @@
 	"giantMushroomSize": 10,
 	/* 
 	   
-	   [Mushroom Houses Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Mushroom Houses Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"mushroomHouseGenerates": true,
 	// Base distance between Mushroom Houses (in chunks). Must be higher than separation.
@@ -265,8 +295,10 @@
 	"mushroomHouseSize": 10,
 	/* 
 	   
-	   [Mushroom Mines Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Mushroom Mines Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"mushroomMinesGenerates": true,
 	// Base distance between Mushroom Mines (in chunks). Must be higher than separation.
@@ -277,8 +309,10 @@
 	"mushroomMinesSize": 40,
 	/* 
 	   
-	   [Mushroom Villages Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Mushroom Villages Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"mushroomVillageGenerates": true,
 	// Base distance between Mushroom Villages (in chunks). Must be higher than separation.
@@ -289,8 +323,10 @@
 	"mushroomVillageSize": 6,
 	/* 
 	   
-	   [Infested Temples Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Infested Temple Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"infestedTempleGenerates": true,
 	// Base distance between Infested Temples (in chunks). Must be higher than separation.
@@ -301,8 +337,10 @@
 	"infestedTempleSize": 100,
 	/* 
 	   
-	   [Plague Asylum Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Plague Asylum Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"plagueAsylumGenerates": true,
 	// Base distance between Plague Asylum (in chunks). Must be higher than separation.
@@ -313,8 +351,10 @@
 	"plagueAsylumSize": 35,
 	/* 
 	   
-	   [Jungle Tree Houses Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Jungle Tree Houses Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"jungleTreeHouseGenerates": true,
 	// Base distance between Jungle Tree Houses (in chunks). Must be higher than separation.
@@ -325,8 +365,10 @@
 	"jungleTreeHouseSize": 10,
 	/* 
 	   
-	   [Coliseum Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Coliseum Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"coliseumGenerates": true,
 	// Base distance between Coliseums (in chunks). Must be higher than separation.
@@ -337,8 +379,10 @@
 	"coliseumSize": 10,
 	/* 
 	   
-	   [Fishing Huts Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Fishing Huts Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"fishingHutGenerates": true,
 	// Base distance between Fishing Huts (in chunks). Must be higher than separation.
@@ -349,8 +393,10 @@
 	"fishingHutSize": 10,
 	/* 
 	   
-	   [Small Prairie Houses Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Small Prairie House Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"smallPrairieHouseGenerates": true,
 	// Base distance between Small Prairie Houses (in chunks). Must be higher than separation.
@@ -361,8 +407,10 @@
 	"smallPrairieHouseSize": 10,
 	/* 
 	   
-	   [Wishing Wells Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Wishing Well Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"wishingWellGenerates": true,
 	// Base distance between Wishing Wells (in chunks). Must be higher than separation.
@@ -373,20 +421,10 @@
 	"wishingWellSize": 10,
 	/* 
 	   
-	   [Illager Windmills Spawning Settings]
-	   Basic configuration options for this structure
-	*/
-	"illagerWindmillGenerates": true,
-	// Base distance between Illager Windmills (in chunks). Must be higher than separation.
-	"illagerWindmillSpacing": 40,
-	// Base distance between Illager Windmills (in chunks)
-	"illagerWindmillSeparation": 30,
-	// Number of Jigsaw iterations when generating a structure
-	"illagerWindmillSize": 5,
-	/* 
 	   
-	   [Foundries Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	    [Foundry Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"foundryGenerates": true,
 	// Base distance between Foundries (in chunks). Must be higher than separation.
@@ -397,8 +435,10 @@
 	"foundrySize": 20,
 	/* 
 	   
-	   [Mining Systems Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Mining System Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"miningSystemGenerates": true,
 	// Base distance between Mining Systems (in chunks). Must be higher than separation.
@@ -409,8 +449,10 @@
 	"miningSystemSize": 20,
 	/* 
 	   
-	   [Scorched Mines Spawning Settings]
-	   Basic configuration options for this structure
+	   
+	   
+	    [Scorched Mines Spawning Settings]
+	    Basic configuration options for this structure"
 	*/
 	"scorchedMinesGenerates": true,
 	// Base distance between Scorched Mines (in chunks). Must be higher than separation.

@@ -15,8 +15,7 @@
     "minecraft:multishot": 1
   },
   "mcdw:crossbow_lightning_harp_crossbow": {
-    "mcdw:ricochet": 1,
-    "minecraft:multishot": 1
+    "mcdw:ricochet": 1
   },
   "mcdw:sword_heartstealer": {
     "mcdw:leeching": 1
@@ -118,6 +117,9 @@
   "mcdw:bow_green_menace": {
     "mcdw:poison_cloud": 1
   },
+  "minecraft:air": {
+    "mcdw:ricochet": 1
+  },
   "mythicmetals:prometheum_sword": {
     "minecraft:mending": 1
   },
@@ -128,8 +130,7 @@
     "mcdw:freezing": 1
   },
   "mcdw:dagger_resolute_tempest_knife": {
-    "mcdw:rushdown": 1,
-    "mcdw:committed": 1
+    "mcdw:rushdown": 1
   },
   "mcdw:axe_whirlwind": {
     "mcdw:shockwave": 1

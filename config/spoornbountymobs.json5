@@ -1,14 +1,14 @@
 {
 	// Chance for mob to spawn with a bounty [1/value] [default = 100]
-	"bountyChance": 777,
+	"bountySpawnChance": 777,
 	// True if Bounty mobs should glow through walls permanently, else false [default = false]
 	"bountyMobPermanentGlow": false,
 	// Duration in seconds Bounty mobs should glow when they are first found if bountyMobPermanentGlow is false [default = 20]
 	"bountyMobGlowDuration": 20,
-	// Player's Bounty Hunter level increments at this value [default = 10]
-	"playerBountyHunterLevelIntervals": 10,
-	// Bonus health for Player per Bounty Hunter level [default = 2 (one heart)]
-	"playerBonusHealthPerBountyHunterLevel": 2.0,
+	// Player's Bounty Hunter tier increments at this value [default = 10]
+	"playerBountyHunterTierIntervals": 10,
+	// Bonus health for Player per Bounty Hunter tier [default = 2 (one heart)]
+	"playerBonusHealthPerBountyHunterTier": 2.0,
 	// Bonus damage for Player per Bounty Hunter tier [default = 0.5]
 	"playerBonusDamagePerBountyHunterTier": 0.5,
 	// Percentage of player's Bounty score LOST on death [default = 20, min=0, max=100]
@@ -29,7 +29,7 @@
 		"experienceScale": 3,
 		// Health increase per bounty score milestone [default = 5]
 		"milestoneHealthIncrease": 5,
-		// Damage increase per player bounty score level [default = 0.2]
+		// Damage increase per bounty score milestone [default = 0.2]
 		"milestoneDamageIncrease": 0.2
 	},
 	// Uncommon tier bounty mobs
@@ -46,7 +46,7 @@
 		"experienceScale": 6,
 		// Health increase per bounty score milestone [default = 10]
 		"milestoneHealthIncrease": 10,
-		// Damage increase per player bounty score level [default = 0.2]
+		// Damage increase per bounty score milestone [default = 0.2]
 		"milestoneDamageIncrease": 0.2
 	},
 	// Rare tier bounty mobs
@@ -63,7 +63,7 @@
 		"experienceScale": 9,
 		// Health increase per bounty score milestone [default = 15]
 		"milestoneHealthIncrease": 15,
-		// Damage increase per player bounty score level [default = 0.3]
+		// Damage increase per bounty score milestone [default = 0.3]
 		"milestoneDamageIncrease": 0.3
 	},
 	// Epic tier bounty mobs
@@ -80,7 +80,7 @@
 		"experienceScale": 12,
 		// Health increase per bounty score milestone [default = 20]
 		"milestoneHealthIncrease": 20,
-		// Damage increase per player bounty score level [default = 0.4]
+		// Damage increase per bounty score milestone [default = 0.4]
 		"milestoneDamageIncrease": 0.4
 	},
 	// Legendary tier bounty mobs
@@ -97,7 +97,7 @@
 		"experienceScale": 15,
 		// Health increase per bounty score milestone [default = 25]
 		"milestoneHealthIncrease": 25,
-		// Damage increase per player bounty score level [default = 0.5]
+		// Damage increase per bounty score milestone [default = 0.5]
 		"milestoneDamageIncrease": 0.5
 	},
 	// Doom tier bounty mobs
@@ -114,7 +114,7 @@
 		"experienceScale": 20,
 		// Health increase per bounty score milestone [default = 30]
 		"milestoneHealthIncrease": 30,
-		// Damage increase per player bounty score level [default = 0.6]
+		// Damage increase per bounty score milestone [default = 0.6]
 		"milestoneDamageIncrease": 0.6
 	}
 }

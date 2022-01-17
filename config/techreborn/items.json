@@ -17,15 +17,15 @@
       "value": 10000
     },
     "clockingDeviceEnergyUsage": {
-      "comment": "Cloacking device energy usage",
+      "comment": "Cloacking device energy usesage (FE)",
       "value": 10
     },
     "quantumSuitSprintingCost": {
       "comment": "Quantum Suit Sprinting Cost",
-      "value": 20
+      "value": 20.0
     },
     "cloakingDeviceCharge": {
-      "comment": "Energy Capacity for Cloacking Device",
+      "comment": "Energy Capacity for Clocking Device (FE)",
       "value": 40000000
     },
     "LithiumBatpackCharge": {
@@ -70,7 +70,7 @@
     },
     "quantumSuitFireExtinguishCost": {
       "comment": "Quantum Suit Cost for Fire Extinguish",
-      "value": 50
+      "value": 50.0
     },
     "nanoSaberCost": {
       "comment": "Energy Cost for Nano Saber",
@@ -78,18 +78,18 @@
     },
     "quantumSuitCapacity": {
       "comment": "Quantum Suit Energy Capacity",
-      "value": 40000000
+      "value": 4.0E7
     },
     "quantumSuitBreathingCost": {
       "comment": "Quantum Suit Breathing Cost",
-      "value": 20
+      "value": 20.0
     },
     "advancedJackhammerCharge": {
       "comment": "Energy Capacity for Advanced Jackhammer",
       "value": 100000
     },
     "rockCutterCost": {
-      "comment": "Energy Cost for Rock Cutter",
+      "comment": "Energy Cost for Rock Cutter (FE)",
       "value": 500
     },
     "advancedJackhammerCost": {
@@ -142,7 +142,7 @@
     },
     "quantumSuitFlyingCost": {
       "comment": "Quantum Suit Flying Cost",
-      "value": 50
+      "value": 50.0
     },
     "omniToolCost": {
       "comment": "Energy Cost for Omni Tool",
@@ -162,10 +162,10 @@
     },
     "quantumSuitSwimmingCost": {
       "comment": "Quantum Suit Swimming Cost",
-      "value": 20
+      "value": 20.0
     },
     "rockCutterCharge": {
-      "comment": "Energy Capacity for Rock Cutter",
+      "comment": "Energy Capacity for Rock Cutter (FE)",
       "value": 400000
     },
     "energyCrystalMaxCharge": {

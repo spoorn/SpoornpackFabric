@@ -1,20 +1,16 @@
 {
 	"waterConfig": {
-		// True if this mod should override the native fog density of water with below configured value [default = true]
+		// True if this mod should override the native fog density of water with below configured value [default = false]
 		"shouldOverrideWaterFogDensity": true,
-		// Underwater visibility [0.0 to 1.0; 1.0 means no fog, 0 is full fog density] [default = 0.9]
-		"underwaterVisibility": 0.9
+		// Fog density for water [0.0 to 1.0; 0 means no fog, 1 is full fog density] [default = 0.01] [vanilla = 0.05]
+		"waterFogDensity": 0.03
 	},
 	"lavaConfig": {
 		// True if this mod should override the native fog density of lava with below configured values [default = true]
 		"shouldOverrideLavaFogDensity": true,
 		// True if Lava should have no fog at all.  False to control fog density on configurations below [default = false
 		"shouldCompletelySeeThroughLava": false,
-		// Factor for lava fog see-through.  Higher values means you can see more [default = 60] [min = 0; max = 200]
-		"lavaSeeThroughFactor": 60.0,
-		// True to remove the fire particle screen effect when IN LAVA ONLY [default = false]
-		"removeFireScreenEffectInLava": false,
-		// True to remove the fire particle screen effect when on fire (including in lava) [default = false]
-		"removeFireScreenEffectIfOnFire": false
+		// Factor for lava fog see-through.  Higher values means you can see more [default = 60] [min = 0; max = 150]
+		"lavaSeeThroughFactor": 60.0
 	}
 }

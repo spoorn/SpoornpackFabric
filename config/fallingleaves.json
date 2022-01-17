@@ -892,9 +892,42 @@
     "promenade:palm_sapling": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "wilderworld:wisteria_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "wilderworld:aspen_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "vanillaenhanced:redwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "wilderworld:aspen_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "wilderworld:wisteria_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "vanillaenhanced:redwood_sapling": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "biomemakeover:ancient_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_indigo_jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:flowering_jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
-  },
-  "leafSpawners": [],
-  "fallSpawnRateFactor": 1.8,
-  "winterSpawnRateFactor": 0.1
+  }
 }

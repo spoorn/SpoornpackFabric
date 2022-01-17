@@ -1,6 +1,18 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			{
+				"type": "roughlyenoughitems:entry_stack",
+				"data": {
+					"id": "minecraft:wooden_hoe",
+					"Count": 127,
+					"tag": {
+						"Damage": 0
+					},
+					"type": "item"
+				}
+			}
+		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
@@ -30,7 +42,7 @@
 				"modifier": 0
 			},
 			"copyRecipeIdentifierKeybind": {
-				"keyCode": "key.mouse.middle",
+				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
 			"favoriteKeybind": {
@@ -38,30 +50,22 @@
 				"modifier": 0
 			},
 			"exportImageKeybind": {
-				"keyCode": "key.keyboard.f8",
-				"modifier": 0
-			},
-			"previousScreenKeybind": {
-				"keyCode": "key.keyboard.backspace",
+				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			}
 		},
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"cheatingStyle": "GRAB",
-		"motion": {
-			"favoritesAnimation": true
-		}
+		"reducedMotion": false
 	},
 	"advanced": {
 		"filtering": {
-			"shouldFilterDisplays": true,
 			"filteringRules": [
-				"{id:\"roughlyenoughitems:manual\",rule:{}}"
+				"{rule:{},id:\"roughlyenoughitems:manual\"}"
 			],
 			"filteredStacks": []
 		},
-		"enableJeiCompatibilityLayer": true,
 		"tooltips": {
 			// Declares whether REI should append mod names to entries.
 			"appendModNames": true,
@@ -72,13 +76,9 @@
 			// The ordering of the items on the entry panel.
 			"entryPanelOrdering": "REGISTRY_ASCENDING",
 			// Declares the maximum amount of recipes displayed in a page if possible.
-			"maxRecipesPerPage": 8,
-			// Declares the maximum amount of recipes displayed in a page if possible.
-			"maxRecipesPageHeight": 300,
+			"maxRecipesPerPage": 15,
 			// Declares whether entry rendering time should be debugged.
-			"debugRenderTimeRequired": false,
-			// Merges displays with equal contents under 1 display.
-			"mergeDisplayUnderOne": true
+			"debugRenderTimeRequired": false
 		},
 		"accessibility": {
 			"entrySize": 1.0,
@@ -86,8 +86,8 @@
 			"displayPanelLocation": "RIGHT",
 			// Declares whether scrolled entry panel should snap to rows.
 			"snapToRows": false,
-			// Declares how the scrollbar in composite screen should act.
-			"compositeScrollBarPermanent": false,
+			// Declares how the scrollbar in villager screen should act.
+			"villagerScreenPermanentScrollBar": false,
 			"toastDisplayedOnCopyIdentifier": true,
 			// Declares whether REI should use compact tabs for categories.
 			"useCompactTabs": true
@@ -101,7 +101,6 @@
 			"asyncSearchPartitionSize": 100,
 			"tooltipSearch": "ALWAYS",
 			"tagSearch": "PREFIX",
-			"identifierSearch": "ALWAYS",
 			"modSearch": "PREFIX"
 		},
 		"commands": {
@@ -119,21 +118,8 @@
 			"newFastEntryRendering": true
 		}
 	},
-	"config": {
-		"RS_keybind": {
-			"keyCode": "key.keyboard.i",
-			"modifier": 2
-		},
-		"RS_search": false,
-		"RS_indicator": {
-			"RS_trueSize": 1.2999999523162842,
-			"RS_falseSize": 0.699999988079071,
-			// Uses default REI search
-			"RS_background": false
-		}
-	},
 	"appearance": {
-		"recipeScreenType": "COMPOSITE",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {
@@ -142,7 +128,9 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": false
+			"enableCraftableOnlyButton": false,
+			// Declares whether the utils buttons are shown.
+			"showUtilsButtons": false
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",
@@ -150,17 +138,11 @@
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
-		"horizontalEntriesBoundariesColumns": 50,
-		"verticalEntriesBoundariesRows": 1000,
-		"favoritesHorizontalEntriesBoundaries": 1.0,
-		"favoritesHorizontalEntriesBoundariesColumns": 50,
 		"syntaxHighlightingMode": "COLORFUL"
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
-		// Declares whether mob effects should be on the left side instead of the right side.
-		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true

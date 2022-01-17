@@ -655,5 +655,25 @@
       "murkweed [default: 44]": 44,
       "needlegrass [default: 45]": 45
     }
-  }
+  },
+  "lucernia_stripped_log [default: true]": true,
+  "lucernia_stripped_bark [default: true]": true,
+  "lucernia_log [default: true]": true,
+  "lucernia_bark [default: true]": true,
+  "lucernia_planks [default: true]": true,
+  "lucernia_stairs [default: true]": true,
+  "lucernia_slab [default: true]": true,
+  "lucernia_fence [default: true]": true,
+  "lucernia_gate [default: true]": true,
+  "lucernia_button [default: true]": true,
+  "lucernia_plate [default: true]": true,
+  "lucernia_trapdoor [default: true]": true,
+  "lucernia_door [default: true]": true,
+  "lucernia_crafting_table [default: true]": true,
+  "lucernia_ladder [default: true]": true,
+  "lucernia_sign [default: true]": true,
+  "lucernia_chest [default: true]": true,
+  "lucernia_barrel [default: true]": true,
+  "lucernia_bookshelf [default: true]": true,
+  "lucernia_composter [default: true]": true
 }

@@ -19,7 +19,7 @@
   },
   "nuke": {
     "radius": {
-      "comment": "Nuke explosion radius",
+      "comment": "Nuke explision radius",
       "value": 40
     },
     "fusetime": {

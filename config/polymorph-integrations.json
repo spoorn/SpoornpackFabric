@@ -1,6 +1,10 @@
 [
   {
-    "id": "ae2",
+    "id": "appliedenergistics2",
+    "enabled": true
+  },
+  {
+    "id": "fabric-furnaces",
     "enabled": true
   },
   {
@@ -17,10 +21,6 @@
   },
   {
     "id": "ironfurnaces",
-    "enabled": true
-  },
-  {
-    "id": "recipecache",
     "enabled": true
   },
   {

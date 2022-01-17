@@ -1,0 +1,4 @@
+{
+	// Disables curio support for apples
+	"appleCurio": true
+}

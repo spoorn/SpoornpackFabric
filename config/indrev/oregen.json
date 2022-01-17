@@ -1,10 +1,10 @@
 {
-  "copper": false,
-  "tin": false,
+  "copper": true,
+  "tin": true,
   "nikolite": true,
-  "lead": false,
-  "silver": false,
-  "tungsten": false,
+  "lead": true,
+  "silver": true,
+  "tungsten": true,
   "sulfuricAcidLake": true,
-  "sulfurCrystals": false
+  "sulfurCrystals": true
 }

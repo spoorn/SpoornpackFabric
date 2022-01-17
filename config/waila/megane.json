@@ -1,5 +1,37 @@
 {
-  "configVersion": 3,
+  "configVersion": 2,
+  "modules": {
+    "megane-team-reborn-energy": {
+      "badasintended.megane.impl.TeamRebornEnergy": true
+    },
+    "megane-kibe": {
+      "badasintended.megane.impl.Kibe": true
+    },
+    "megane-art-of-alchemy": {
+      "badasintended.megane.impl.ArtOfAlchemy": true
+    },
+    "megane-industrial-revolution": {
+      "badasintended.megane.impl.IndustrialRevolution": true
+    },
+    "megane-tech-reborn": {
+      "badasintended.megane.impl.TechReborn": true
+    },
+    "megane-modern-industrialization-4": {
+      "badasintended.megane.impl.ModernIndustrialization": true
+    },
+    "megane-lib-block-attributes": {
+      "badasintended.megane.impl.LibBlockAttributesFluids": true
+    },
+    "megane-applied-energistics-2": {
+      "badasintended.megane.impl.AppliedEnergistics2": true
+    },
+    "megane-fast-transfer-lib": {
+      "badasintended.megane.impl.FastTransferLib": true
+    },
+    "megane-vanilla": {
+      "badasintended.megane.impl.Minecraft": true
+    }
+  },
   "inventory": {
     "enabled": true,
     "itemCount": true,
@@ -40,6 +72,14 @@
   "progress": {
     "enabled": true,
     "showWhenZero": false,
+    "blacklist": [
+      "minecraft:furnace",
+      "minecraft:blast_furnace"
+    ]
+  },
+  "petOwner": {
+    "enabled": true,
+    "offline": true,
     "blacklist": []
   },
   "effect": {

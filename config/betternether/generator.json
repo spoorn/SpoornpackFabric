@@ -143,6 +143,15 @@
         "achromatopsian_gallery_chance[def: 1.0]": 1.0,
         "protanopian_gallery_chance[def: 1.0]": 1.0
       }
+    },
+    "promenade": {
+      "main": {
+        "tall_crimson_forest_chance[def: 1.0]": 1.0,
+        "tall_warped_forest_chance[def: 1.0]": 1.0,
+        "tritanopian_gallery_chance[def: 1.0]": 1.0,
+        "achromatopsian_gallery_chance[def: 1.0]": 1.0,
+        "protanopian_gallery_chance[def: 1.0]": 1.0
+      }
     }
   }
 }

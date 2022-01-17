@@ -5,9 +5,7 @@
   "enableStructurePreview": true,
   "allowBulldozerToCreateDrops": true,
   "allowWaterInNonOverworldDimensions": true,
-  "enableAutomationOptionsFromModerateFarm": true,
   "includeMineshaftChest": true,
-  "playBuildingSound": true,
   "recipes": {
     "Monster Masher": true,
     "Warehouse": true,

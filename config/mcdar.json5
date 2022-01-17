@@ -1,10 +1,4 @@
 {
-	"enableEnchantment": {
-		"BEAST_BOSS": true,
-		"BEAST_BURST": true,
-		"BEAST_SURGE": true,
-		"COOLDOWN": true
-	},
 	"enableDamagingArtefact": {
 		"BLAST_FUNGUS": true,
 		"HARVESTER": true,

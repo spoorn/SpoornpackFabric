@@ -1,31 +1,15 @@
-{
+{ 
 	/* ********
 	   GemBag
 	   ********
 	*/
 	"gembagEnable": true,
 	/* ********
-	   Sharpening Gems
-	   ********
-	*/
-	"enableSharpeningGem": true,
-	"sharpeningGemRepairAmount": 50,
-	"sharpeningGemGreaterRepairAmount": 100,
-	/* ********
-	   Juju Settings
+	   Juju
 	   ********
 	*/
 	"jujuEnable": true,
 	"jujuChance": 0.019999999552965164,
-	"enableMoissaniteDocileHoglin": true,
-	/* ********
-	   Treasure Bags
-	   ********
-	*/
-	"enableTreasureBag": true,
-	"treasureBagChance": 0.014999999664723873,
-	"enableEnchantedBookDrop": true,
-	"enableWanderingTrades": true,
 	/* ***************
 	   Enchantments
 	   ***************
@@ -35,68 +19,17 @@
 	"enableShulkerBlade": false,
 	"enableUntouchable": false,
 	"enableFasterObsidian": false,
-	"enableBlinking": true,
-	"enableWisdom": true,
-	"enableStupify": true,
-	"enableVoidEscape": true,
-	"enableCreeperless": true,
-	"enableFloating": true,
-	"enableLightning": true,
-	"enableLavaView": true,
-	"enableBenevolence": true,
-	"enableMiningHelper": true,
-	"enableBound": true,
-	"enableAttracting": true,
-	"enableFreezeProtection": true,
-	/* ***************
-	   Enchantment Settings
-	   ***************
-	*/
-	"amountYellowHeartsQuickening": 10.0,
-	"durationQuickening": 40,
-	"strengthLevelQuickening": 1,
-	"speedLevelQuickening": 1,
-	"slownessLevelQuickening": 1,
+	"amountHalfHeartsQuickening": 10.0,
 	"enemySlownessDurationTicksQuickening": 300,
 	"razorDamageIncrease": 6.0,
 	"untouchableDamage": 7,
 	"shulkerBladeDurationTicks": 300,
-	"wisdomExperienceMultiplier": 5,
-	"lightningChance": 0.10000000149011612,
-	"floatingBaseDuration": 80,
-	"minngHelperVertical": 2,
-	"minerHelperHoriz": 4,
-	"attractingBaseHorizontalRadius": 6,
-	"boundReturnAll": false,
 	/* ********************************
-	   
-	   ******************************
-	   Enable/disable extra tools by type
-	   - bows, paxels, hammers, & excavators
+	   Paxels, Hammers, & Excavators
 	   ********************************
 	*/
-	"enableExtraTools": true,
-	"enableBows": true,
-	"enableHammers": true,
-	"enableExcavators": true,
-	"enablePaxels": true,
-	/* ********************************
-	   
-	   ******************************
-	   Enable/disable sets by material
-	   - armor, tools, & weapons
-	   ********************************
-	*/
-	"enableCitrineSet": true,
-	"enableTourmalineSet": true,
-	"enableKunziteSet": true,
-	"enableTopazSet": true,
-	"enableAlexandriteSet": true,
-	"enableCorundumSet": true,
-	"enableSapphireSet": true,
-	"enableSpinelSet": true,
-	"enableCarbonadoSet": true,
-	"enableMoissaniteSet": true,
+	"extraToolsEnable": true,
+	"bowsEnable": true,
 	/* 
 	   
 	   
@@ -147,25 +80,48 @@
 	   
 	   
 	   ******************************
-	   KUNZITE TOOL MATERIAL
+	   AMETHYST TOOL MATERIAL
 	   ******************************
 	*/
-	"kunziteDurability": 1092,
-	"kunziteMiningSpeed": 6.0,
-	"kunziteAttackDamage": 2.0,
-	"kunziteMiningLevel": 2,
-	"kunziteEnchantability": 14,
+	"amethystDurability": 1092,
+	"amethystMiningSpeed": 6.0,
+	"amethystAttackDamage": 2.0,
+	"amethystMiningLevel": 2,
+	"amethystEnchantability": 14,
 	/* 
 	   
 	   
 	   ******************************
-	   KUNZITE ARMOR MATERIAL
+	   AMETHYST ARMOR MATERIAL
 	   ******************************
 	*/
-	"kunziteDurabilityMultiplier": 23,
-	"kunziteArmorEnchantability": 9,
-	"kunziteToughness": 0.0,
-	"kunziteKnockbackResistance": 0.0,
+	"amethystDurabilityMultiplier": 23,
+	"amethystArmorEnchantability": 9,
+	"amethystToughness": 0.0,
+	"amethystKnockbackResistance": 0.0,
+	/* 
+	   
+	   
+	   ******************************
+	   EMERALD TOOL MATERIAL
+	   ******************************
+	*/
+	"emeraldDurability": 1170,
+	"emeraldMiningSpeed": 6.0,
+	"emeraldAttackDamage": 2.0,
+	"emeraldMiningLevel": 2,
+	"emeraldEnchantability": 14,
+	/* 
+	   
+	   
+	   ******************************
+	   EMERALD ARMOR MATERIAL
+	   ******************************
+	*/
+	"emeraldDurabilityMultiplier": 25,
+	"emeraldArmorEnchantability": 9,
+	"emeraldToughness": 0.0,
+	"emeraldKnockbackResistance": 0.0,
 	/* 
 	   
 	   
@@ -262,25 +218,25 @@
 	   
 	   
 	   ******************************
-	   SPINEL TOOL MATERIAL
+	   RUBY TOOL MATERIAL
 	   ******************************
 	*/
-	"spinelDurability": 1404,
-	"spinelMiningSpeed": 6.0,
-	"spinelAttackDamage": 2.0,
-	"spinelMiningLevel": 3,
-	"spinelEnchantability": 14,
+	"rubyDurability": 1404,
+	"rubyMiningSpeed": 6.0,
+	"rubyAttackDamage": 2.0,
+	"rubyMiningLevel": 3,
+	"rubyEnchantability": 14,
 	/* 
 	   
 	   
 	   ******************************
-	   SPINEL ARMOR MATERIAL
+	   RUBY ARMOR MATERIAL
 	   ******************************
 	*/
-	"spinelDurabilityMultiplier": 30,
-	"spinelArmorEnchantability": 9,
-	"spinelToughness": 0.5,
-	"spinelKnockbackResistance": 0.0,
+	"rubyDurabilityMultiplier": 30,
+	"rubyArmorEnchantability": 9,
+	"rubyToughness": 0.5,
+	"rubyKnockbackResistance": 0.0,
 	/* 
 	   
 	   
@@ -303,29 +259,5 @@
 	"carbonadoDurabilityMultiplier": 33,
 	"carbonadoArmorEnchantability": 10,
 	"carbonadoToughness": 0.75,
-	"carbonadoKnockbackResistance": 0.25,
-	/* 
-	   
-	   
-	   ******************************
-	   MOISSANITE TOOL MATERIAL
-	   ******************************
-	*/
-	"moissaniteDurability": 2031,
-	"moissaniteMiningSpeed": 8.0,
-	"moissaniteAttackDamage": 4.0,
-	"moissaniteMiningLevel": 4,
-	"moissaniteEnchantability": 24,
-	/* 
-	   
-	   
-	   ******************************
-	   MOISSANITE ARMOR MATERIAL
-	   ******************************
-	*/
-	"moissaniteDurabilityMultiplier": 33,
-	"moissaniteArmorEnchantability": 10,
-	"moissaniteToughness": 0.75,
-	"moissaniteKnockbackResistance": 0.25,
-	"enableMoissaniteCuring": true
+	"carbonadoKnockbackResistance": 0.25
 }

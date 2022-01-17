@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Mar 10, 2021 12:45:26 AM
+To refresh this file, delete it and run /reload command again! Last updated: Jan 15, 2022 2:16:52 AM
 
 #identity:undrownable
 - minecraft:iron_golem
@@ -12,6 +12,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:endermite
 
 #waila:blacklist
+- minecraft:experience_orb
+- minecraft:area_effect_cloud
 
 #biomemakeover:lightning_bugs
 - biomemakeover:lightning_bug
@@ -21,6 +23,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:evoker
 - minecraft:pillager
 - minecraft:vindicator
+
+#biomemakeover:owl_targets
+- minecraft:rabbit
+- minecraft:chicken
+- minecraft:silverfish
+- minecraft:endermite
+- minecraft:bat
+- biomemakeover:toad
+- biomemakeover:blightbat
+- biomemakeover:dragonfly
+- biomemakeover:lightning_bug
+- biomemakeover:lightning_bug_alternate
 
 #identity:fox_prey
 - minecraft:chicken
@@ -61,6 +75,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:piglin
 - minecraft:zombified_piglin
 
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
 #identity:lava_walking
 - minecraft:strider
 
@@ -71,10 +93,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:vindicator
 - minecraft:illusioner
 - minecraft:witch
+- biomemakeover:adjudicator
 
 #identity:piglin_friendly
 - minecraft:piglin
 - minecraft:piglin_brute
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
 
 #minecraft:impact_projectiles
 - #minecraft:arrows

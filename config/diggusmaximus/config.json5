@@ -5,9 +5,7 @@
 	"keybinding": "key.keyboard.grave.accent",
 	// Inverts the keybinding activation
 	"invertActivation": false,
-	// Sneak to excavate(works serverside only)
-	"sneakToExcavate": false,
-	// Should mine diagonally, excludes shape excavating
+	// Should mine diagonally
 	"mineDiag": true,
 	// Maximum number of blocks to mine
 	"maxMinedBlocks": 30,

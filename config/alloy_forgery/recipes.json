@@ -37,17 +37,6 @@
     },
     {
       "input": {
-        "c#:tin_ores": 2
-      },
-      "output": {
-        "item": "#c:tin_ingots",
-        "amount": 3
-      },
-      "heat_per_tick": 8,
-      "required_tier": 1.0
-    },
-    {
-      "input": {
         "gold": 9,
         "silver": 9
       },
@@ -107,6 +96,17 @@
     },
     {
       "input": {
+        "minecraft:lapis_ore": 1
+      },
+      "output": {
+        "item": "minecraft:lapis_lazuli",
+        "amount": 18
+      },
+      "heat_per_tick": 5,
+      "required_tier": 1.0
+    },
+    {
+      "input": {
         "mythicmetals:adamantite_ore": 2
       },
       "output": {
@@ -140,7 +140,7 @@
     },
     {
       "input": {
-        "c#:tantalite_ores": 2
+        "#c:tantalite_ores": 2
       },
       "output": {
         "item": "#c:tantalite_ingots",
@@ -148,6 +148,17 @@
       },
       "heat_per_tick": 8,
       "required_tier": 1.0
+    },
+    {
+      "input": {
+        "minecraft:ancient_debris": 2
+      },
+      "output": {
+        "item": "minecraft:netherite_scrap",
+        "amount": 3
+      },
+      "heat_per_tick": 5,
+      "required_tier": 2.0
     },
     {
       "input": {
@@ -201,6 +212,17 @@
       },
       "output": {
         "item": "mythicmetals:carmot_ingot",
+        "amount": 3
+      },
+      "heat_per_tick": 8,
+      "required_tier": 1.0
+    },
+    {
+      "input": {
+        "#c:tin_ores": 2
+      },
+      "output": {
+        "item": "#c:tin_ingots",
         "amount": 3
       },
       "heat_per_tick": 8,
@@ -322,6 +344,17 @@
     },
     {
       "input": {
+        "minecraft:diamond_ore": 2
+      },
+      "output": {
+        "item": "minecraft:diamond",
+        "amount": 3
+      },
+      "heat_per_tick": 5,
+      "required_tier": 1.0
+    },
+    {
+      "input": {
         "mythicmetals:mythril_ore": 2
       },
       "output": {
@@ -333,6 +366,18 @@
     },
     {
       "input": {
+        "minecraft:gold_ingot": 3,
+        "minecraft:netherite_scrap": 3
+      },
+      "output": {
+        "item": "minecraft:netherite_ingot",
+        "amount": 1
+      },
+      "heat_per_tick": 5,
+      "required_tier": 2.0
+    },
+    {
+      "input": {
         "mythicmetals:midas_gold_ore": 2
       },
       "output": {
@@ -340,6 +385,28 @@
         "amount": 3
       },
       "heat_per_tick": 8,
+      "required_tier": 1.0
+    },
+    {
+      "input": {
+        "minecraft:nether_quartz_ore": 2
+      },
+      "output": {
+        "item": "minecraft:quartz",
+        "amount": 5
+      },
+      "heat_per_tick": 5,
+      "required_tier": 2.0
+    },
+    {
+      "input": {
+        "minecraft:redstone_ore": 1
+      },
+      "output": {
+        "item": "minecraft:redstone",
+        "amount": 5
+      },
+      "heat_per_tick": 5,
       "required_tier": 1.0
     },
     {
@@ -432,6 +499,17 @@
         "amount": 3
       },
       "heat_per_tick": 8,
+      "required_tier": 1.0
+    },
+    {
+      "input": {
+        "minecraft:emerald_ore": 2
+      },
+      "output": {
+        "item": "minecraft:diamond",
+        "amount": 3
+      },
+      "heat_per_tick": 5,
       "required_tier": 1.0
     },
     {

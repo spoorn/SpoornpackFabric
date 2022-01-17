@@ -1,10 +1,11 @@
 {
+  "removeInventoryPotionShift": true,
   "learningIncreasesExpOrbValue": true,
   "enableVials": true,
   "enableRings": true,
   "enableBrewingStandFire": true,
   "useAnchorChargesWithReturnPotion": true,
-  "allowRingsInInventoryWithThirdPartyMods": false,
+  "allowRingsInInventoryWithCurios": false,
   "potions": {
     "magnetism": true,
     "photosynthesis": true,
@@ -20,7 +21,6 @@
     "pacifism": true,
     "shrinking": true,
     "growing": true,
-    "detection": true,
-    "piper": false
+    "detection": true
   }
 }

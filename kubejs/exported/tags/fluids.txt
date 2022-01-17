@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Mar 10, 2021 12:45:26 AM
+To refresh this file, delete it and run /reload command again! Last updated: Jan 15, 2022 2:16:52 AM
 
 #minecraft:lava
 - minecraft:lava
@@ -21,14 +21,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #minecraft:water
 - minecraft:water
 - minecraft:flowing_water
-- indrev:coolant_still
-- indrev:coolant_flowing
-- indrev:sulfuric_acid_still
-- indrev:sulfuric_acid_flowing
-- indrev:toxic_mud_still
-- indrev:toxic_mud_flowing
-- sandwichable:pickle_brine
-- sandwichable:pickle_brine_flowing
 - artofalchemy:alkahest
 - artofalchemy:flowing_alkahest
 - artofalchemy:essentia_mercury
@@ -57,5 +49,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - artofalchemy:flowing_essentia_pluto
 - artofalchemy:essentia_void
 - artofalchemy:flowing_essentia_void
-
-#appliedenergistics2:blacklisted/fluid_annihilation_plane
+- indrev:coolant_still
+- indrev:coolant_flowing
+- indrev:sulfuric_acid_still
+- indrev:sulfuric_acid_flowing
+- indrev:toxic_mud_still
+- indrev:toxic_mud_flowing

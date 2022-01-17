@@ -20,56 +20,69 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				chicken = true
 				panda = true
-				ravager = true
 				bee = true
 				axolotl = true
 				cow = true
-				chest_minecart = true
-				tropical_fish = true
-				fox = true
 				pig = true
-				slime = true
-				pillager = true
-				iron_golem = true
 				skeleton = true
 				llama = true
-				area_effect_cloud = true
 				bat = true
-				cat = true
 				rabbit = true
-				zombie = true
 				armor_stand = true
 				drowned = true
-				sheep = true
 				experience_orb = true
-				player = true
 				dolphin = true
-				illusioner = true
 				item = true
-				potion = true
+				stray = true
 				turtle = true
-				wolf = true
-				villager = true
 				salmon = true
-				zombie_villager = true
+				wither_skeleton = true
 				ocelot = true
 				horse = true
 				vindicator = true
-				painting = true
 				evoker = true
-				cave_spider = true
 				glow_squid = true
-				cod = true
 				squid = true
-				spider = true
 				parrot = true
 				creeper = true
 				enderman = true
+				chicken = true
+				ravager = true
+				donkey = true
+				chest_minecart = true
+				tropical_fish = true
+				fox = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				cat = true
+				zombie = true
+				sheep = true
+				player = true
+				illusioner = true
+				pufferfish = true
+				potion = true
+				wolf = true
+				villager = true
+				skeleton_horse = true
+				zombie_villager = true
+				painting = true
+				cave_spider = true
+				cod = true
+				witch = true
+				spider = true
+
+			[light_sources.settings.entities.vanilla_degus]
+				degu = true
 
 			[light_sources.settings.entities.bewitchment]
 				ghost = true
+				werewolf = true
+				raven = true
+				owl = true
+				snake = true
 
 			[light_sources.settings.entities.unvotedandshelved]
 				glare = true
@@ -79,22 +92,29 @@ mode = "fancy"
 				feralwolf = true
 				reindeer = true
 				jellyfish = true
+				octopus = true
 				goose = true
 				songbird = true
+				badgerdirt = true
 				eel_freshwater = true
 				boar = true
 				dragonfly = true
+				whale = true
 				lamprey = true
 				butterfly = true
 				pheasant = true
 				blackbear = true
 				shark = true
+				flying_fish = true
 				piranha = true
+				barracuda = true
 				nautilus = true
 				moose = true
+				tarantula = true
 				badger = true
 				squirrel = true
 				brownbear = true
+				walrus = true
 				horseshoecrab = true
 				turkey = true
 				coyote = true
@@ -103,16 +123,27 @@ mode = "fancy"
 
 			[light_sources.settings.entities.creeperoverhaul]
 				swamp_creeper = true
+				snowy_creeper = true
 				badlands_creeper = true
+				dark_oak_creeper = true
+				desert_creeper = true
 				dripstone_creeper = true
 				jungle_creeper = true
 				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
 				spruce_creeper = true
+				hills_creeper = true
 
 			[light_sources.settings.entities.elementalcreepers]
+				hydrogen_creeper = true
+				illusion_creeper = true
 				earth_creeper = true
+				reverse_creeper = true
 				electric_creeper = true
 				light_creeper = true
+				fire_creeper = true
+				dark_creeper = true
 
 			[light_sources.settings.entities.golemsgalore]
 				quartz_golem = true
@@ -121,6 +152,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.terrarianslimes]
 				black_slime = true
+				sand_slime = true
 				green_slime = true
 				jungle_slime = true
 				red_slime = true
@@ -129,19 +161,24 @@ mode = "fancy"
 				blue_slime = true
 
 			[light_sources.settings.entities.mythicmounts]
+				courierbird = true
 				direwolf = true
 				dragon = true
 				griffon = true
+				archelon = true
+				geckotoalizard = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true
 				lush_creeper = true
 
 			[light_sources.settings.entities.aqupd]
+				caracal = true
 				grizzly_bear = true
 
 			[light_sources.settings.entities.earthtojavamobs]
 				piebald_pig = true
+				muddy_foot_rabbit = true
 				dairy_cow = true
 				pink_footed_pig = true
 				flecked_sheep = true
@@ -155,25 +192,36 @@ mode = "fancy"
 				bold_striped_rabbit = true
 				muddy_pig = true
 				freckled_rabbit = true
+				wooly_cow = true
+				amber_chicken = true
 				sooty_pig = true
 				patched_sheep = true
+				jumbo_rabbit = true
 				stormy_chicken = true
 				horned_sheep = true
+				harelequin_rabbit = true
 				rocky_sheep = true
 				pinto_cow = true
+				cookie_cow = true
 				fuzzy_sheep = true
 				albino_cow = true
 				fancy_chicken = true
 				jolly_llama = true
 				inky_sheep = true
+				sunset_cow = true
 				skewbald_chicken = true
+				pale_pig = true
 
 			[light_sources.settings.entities.adventurez]
 				deer = true
+				iguana = true
 				amethyst_golem = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
+
+			[light_sources.settings.entities.snowpig]
+				snow_pig = true
 
 			[light_sources.settings.entities.tinyskeletons]
 				baby_skeleton = true
